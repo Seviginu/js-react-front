@@ -1,0 +1,34 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    justify-items: center;
+    align-items: center;
+}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: right;
+    padding-right: 10px;
+}
+
+.auth-button {
+    margin-right: 10px;
+    width: 100px;
+  }
+  
+ .login-form {
+   width: 100%;
+   text-align: center;
+   position: relative;
+ }
+ 
+ .form-element {
+   margin-bottom: 10px;
+ }
+ 
+ .Table{
+   justify-self: stretch;
+    grid-column-start: 1;
+    grid-column-end: 3;
+ }
